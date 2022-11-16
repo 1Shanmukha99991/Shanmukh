@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Gmail" tests="3" started="3" failures="2" errors="0" ignored="0">
+  <testsuite name="TestRunner.Runner" time="42.146">
+    <testsuite name="Login Functionality" time="42.146">
+      <testcase name="Successful login with valid credentials" classname="Login Functionality" time="24.857"/>
+      <testcase name="Login Data Driven #1" classname="Login Functionality" time="8.419">
+        <failure>
+          <expected>Dashboard / nopCommerce administration</expected>
+          <actual>Your store. Login</actual>
+          org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at stepDefinations.Steps.page_title_should_be(Steps.java:57)&#13;
+	at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///C:/Users/saich/eclipse-workspace/Gmail/./Features/Login.feature:19)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Login Data Driven #2" classname="Login Functionality" time="8.87">
+        <failure>
+          <expected>Dashboard / nopCommerce administration</expected>
+          <actual>Your store. Login</actual>
+          org.junit.ComparisonFailure: expected:&lt;[Dashboard / nopCommerce administratio]n&gt; but was:&lt;[Your store. Logi]n&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:115)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:144)&#13;
+	at stepDefinations.Steps.page_title_should_be(Steps.java:57)&#13;
+	at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///C:/Users/saich/eclipse-workspace/Gmail/./Features/Login.feature:19)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Runner" project="Gmail" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="TestRunner.Runner" time="0.14">
+    <testsuite name="Login Functionality" time="0.14">
+      <testcase name="Successful login with valid credentials" classname="Login Functionality" time="0.109"/>
+      <testcase name="Login Data Driven #1" classname="Login Functionality" time="0.016"/>
+      <testcase name="Login Data Driven #2" classname="Login Functionality" time="0.015"/>
+    </testsuite>
+  </testsuite>
+</testrun>
